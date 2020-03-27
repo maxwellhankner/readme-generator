@@ -2,20 +2,6 @@ var inquirer = require("inquirer");
 var fs = require("fs");
 var axios = require("axios");
 
-// const questions = [
-//     'Title',
-//     'Description',
-//     'Table of Contents',
-//     'Installation',
-//     'Usage',
-//     'License',
-//     'Contributing',
-//     'Tests',
-//     'Questions'
-// ];
-
-
-
 function init() {
     inquirer
         .prompt([
