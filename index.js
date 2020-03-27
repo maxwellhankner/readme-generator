@@ -73,7 +73,7 @@ function init() {
         .then(function({github, title, description, contents, installation, usage, license, contributors, tests}) {
             var inputArray = [title, description, contents.split(','), installation, usage, license, contributors.split(','), tests];
             var inputData = `# ${title}\n## ${description}`
-            writeToFile("generated-readme.md", inputData)
+            writeToFile("generated-readme.txt", inputData)
         });
     // Build the data according to the user's input
     // Call the writeToFile function
